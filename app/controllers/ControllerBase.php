@@ -20,12 +20,13 @@ class ControllerBase extends Controller
   ->addJs("public/assets/jquery.min.js")
   ->addJs("public/assets/jquery-ui.min.js")
   ->addJs("public/assets/bootstrap/js/bootstrap.min.js")
-  ->addJs("public/assets/moment.min.js")
-  ->addJs("public/assets/jquery.jqGrid.js")
   ->addJs("public/assets/grid.locale-th.js")
+  ->addJs("public/assets/jquery.jqGrid.js")
+  ->addJs("public/assets/moment.min.js")
   ->addJs("public/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js")
   ->addJs("public/assets/select2/js/select2.min.js")
   ->addJs("public/assets/jquery-validation/js/jquery.validate.min.js")
+  // ->addJs("public/assets/dataclassgroup.js?".rand(0,999))
   ->addJs("public/assets/custom.js?".rand(0,999));
   }
 }

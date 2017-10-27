@@ -1,7 +1,11 @@
-<div class="page-header">
-    <h1>Congratulations!</h1>
+{% extends "layouts/layouts.volt" %}
+{% block contents %}
+
+
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading"><span class="glyphicon glyphicon-home icon"> หน้าแรก</div>
+  </div>
 </div>
 
-<p>You're now flying with Phalcon. Great things are about to happen!</p>
-
-<p>This page is located at <code>views/index/index.volt</code></p>
+{% endblock %}
