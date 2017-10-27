@@ -1,12 +1,11 @@
 <?php
 
-class LayoutsController extends \Phalcon\Mvc\Controller
+class LayoutsController extends ControllerBase
 {
 
-    public function indexAction()
+    public function layoutsAction()
     {
 
     }
 
 }
-

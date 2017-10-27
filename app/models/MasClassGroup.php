@@ -74,6 +74,7 @@ class MasClassGroup extends \Phalcon\Mvc\Model
     public function initialize()
     {
         $this->setSchema("example");
+        $this->setSource("mas_class_group");
     }
 
     /**

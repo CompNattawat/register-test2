@@ -20,17 +20,16 @@
           <ul class="dropdown-menu">
             <li class="dropdown-submenu"><a href="#">โครงสร้างโรงเรียน <span class="caret-right"></span></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
                 <li ><a href="#" data-id="1" data-name="ข้อมูลช่วงชั้น" class="menu_list"> ข้อมูลช่วงชั้น</a></li>
-                <li><a href="#" data-id="2" data-name="ข้อมูลระดับ" class="menu_list"> ข้อมูลระดับ</a></li>
-                </li>
+                <li ><a href="#" data-id="2" data-name="ข้อมูลระดับ" class="menu_list"> ข้อมูลระดับ</a></li>
               </ul>
             </li>
             <li class="dropdown-submenu"><a href="#">ข้อมูลหลักทะเบียน <span class="caret-right"></span></a>
-              <ul class="dropdown-menu"><li><a href="#" >ข้อมูลกลุ่มสาระวิชา</a></li>
-                <li><a href="#" >ข้อมูลประเภทรายวิชา</a></li>
-                <li><a href="#" >ข้อมูลรายวิชา</a></li>
-                <li><a href="#" >ข้อมูลคำนำหน้าชื่อ</a></li>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="menu_list">ข้อมูลกลุ่มสาระวิชา</a></li>
+                <li><a href="#" class="menu_list">ข้อมูลประเภทรายวิชา</a></li>
+                <li><a href="#" class="menu_list">ข้อมูลรายวิชา</a></li>
+                <li><a href="#" class="menu_list">ข้อมูลคำนำหน้าชื่อ</a></li>
               </ul>
             </li>
           </ul>
