@@ -20,7 +20,7 @@
           <ul class="dropdown-menu">
             <li class="dropdown-submenu"><a href="#">โครงสร้างโรงเรียน <span class="caret-right"></span></a>
               <ul class="dropdown-menu">
-                <li ><a href="#" data-id="1" data-name="ข้อมูลช่วงชั้น" class="menu_list"> ข้อมูลช่วงชั้น</a></li>
+                <li ><a href="<?= $this->url->getBaseuri() ?>maindata/classgroup" data-id="1" data-name="ข้อมูลช่วงชั้น" class="menu_list"> ข้อมูลช่วงชั้น</a></li>
                 <li ><a href="<?= $this->url->getBaseuri() ?>maindata/classlevel" data-id="2" data-name="ข้อมูลระดับ" class="menu_list"> ข้อมูลระดับ</a></li>
               </ul>
             </li>
@@ -76,7 +76,6 @@
     <div class="panel-body" style="margin-left:20px">
         <div id="jqGridPager"></div>
         <table class="grid" id="jqGrid_classgroup"></table>
-        
     </div>
   </div>
 
